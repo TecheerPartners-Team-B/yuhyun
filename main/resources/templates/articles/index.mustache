@@ -5,16 +5,16 @@
         <th scope="col">ID</th>
         <th scope="col">Title</th>
         <th scope="col">Content</th>
-        {{#articleList}}
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-            <th>{{id}}</th>
-            <td>{{title}}</td>
-            <td>{{content}}</td>
-        </tr>
-        {{/articleList}}
+    {{#articleList}}
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <th>{{id}}</th>
+        <td>{{title}}</td>
+        <td>{{content}}</td>
+    </tr>
+    {{/articleList}}
     </tbody>
 </table>
-{{layouts/footer}}
+{{>layouts/footer}}
